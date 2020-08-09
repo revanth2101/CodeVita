@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[1]:
-
-
 def happyNumbers(arr: list, k: int):
     c_min = arr[0]-k
     c_max = arr[0]+k
@@ -21,10 +15,6 @@ def happyNumbers(arr: list, k: int):
             c_max = arr[i]+k
             
     return answer
-
-
-# In[ ]:
-
 
 def mergeSort(arr): 
     if len(arr) >1: 
@@ -61,10 +51,3 @@ def mergeSort(arr):
 n, k = list(map(int, input().split()))
 l = list(map(int, input().split()))
 happyNumbers(l, k)
-
-
-# In[ ]:
-
-
-
-
